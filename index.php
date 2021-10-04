@@ -15,11 +15,40 @@
     /* 
     komen bnyk baris 
     */
+   
     $namaPelajar = 'Dini Nabilah';
     $umur = '20';
     echo "<h2>Hello $namaPelajar umur $umur tahun</h2>"; #output
 
     $noKp = '010722060136';
+    $x = 100;//integer
+    $y = '30';//string
+     if ($x==$y) {
+         echo 'sama';
+     } else {
+         echo 'Berebeza';
+     }
+
+     echo $x++;
+     ?>
+<p>
+<?php  
+echo 20.21;
+?>
+<p>
+
+<h2>
+    <?php
+    $bandar = 'Arau';
+    $baru='';
+    for($x=0; $x < strlen($bandar); $x++) {
+        $baru .=$bandar[$x] . '-';
+    
+    }
+    echo $baru;
     ?>
+</h2>
+     
+    
 </body>
 </html>
